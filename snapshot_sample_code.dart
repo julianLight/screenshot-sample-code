@@ -1,7 +1,3 @@
-// Use
-// dio: ^4.0.4
-// dartz: ^0.10.1
-
 import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
@@ -20,7 +16,6 @@ bool isNeed = true;
 StreamController<Either<Error, Uint8List>> dataController =
     StreamController<Either<Error, Uint8List>>();
 const screenshotApiDuration = Duration(seconds: 1);
-const apiVersionDuration = Duration(seconds: 1);
 const ip = 'IP FOUND';
 dynamic cert = 'CERT HAS BEEN AUTHED';
 
